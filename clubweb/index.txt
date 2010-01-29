@@ -1,0 +1,14 @@
+ClubWeb
+=======
+
+A simple website for clubs and origanisations.
+
+Installation
+------------
+
+  gem install clubweb
+
+Usage
+-----
+
+> Coming soon...
