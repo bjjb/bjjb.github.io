@@ -39,9 +39,4 @@ end
 desc "Build the HTML pages"
 task :build => HTML
 
-desc "Publish the website"
-task :publish => :build do
-  sh "git push"
-end
-
 task :default => :build
