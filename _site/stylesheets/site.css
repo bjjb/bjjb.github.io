@@ -1,0 +1,93 @@
+body {
+  font-family: "Lucida Grande", Arial, sans-serif;
+  margin: 0 2em;
+  color: #444444;
+}
+header,footer {
+  display: block;
+  text-align: center;
+  color: #cccccc;
+}
+header,footer,h1,h2,h3,h4,h5 {
+  color: #cccccc;
+  font-family: Sawasdee, "Trebuchet MS", sans-serif;
+  -webkit-text-shadow: 0px 0px 0.1em #cccccc; -moz-text-shadow: 0px 0px 0.2em #cccccc; -o-text-shadow: 0px 0px 0.2em #cccccc; text-shadow: 0px 0px 0.1em #cccccc;
+}
+header {
+  font-size: 140%;
+  border-bottom: 1px solid rgb(204,204,204);
+}
+footer {
+  margin-top: 1em;
+  font-size: 80%;
+}
+section {
+  display: block;
+  margin: 1em;
+  min-height: 200px;
+  padding: 1em;
+}
+nav {
+  margin-top: -1em;
+  text-align: left;
+  display: block;
+  font-size: 80%;
+  font-weight: bold;
+}
+nav a {
+  padding: 0 1em;
+}
+aside {
+  text-align: right;
+  display: block;
+  width: 200px;
+  float: right;
+  vertical-align: top;
+}
+aside h1 {
+  margin: 0;
+  padding: 0 0.2em;
+}
+a {
+  text-decoration: none;
+  color: #4444cc;
+}
+a:hover {
+  color: #4444ff;
+}
+a:visited {
+  color: #4499dd;
+}
+h1 a {
+  color: #cccccc;
+}
+a.ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.4em 1em;
+
+  width: 180px;
+
+  font-family: Georgia, Verdana, serif;
+  font-weight: bold;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+
+  background-color: #bb3333;
+  border: 3px solid #dd5555;
+
+  -webkit-box-shadow: 0px 0px 10px #dd5555;
+
+  -webkit-transform: rotate(45deg) translateX(60px);
+  -moz-transform: rotate(45deg) translateX(60px);
+  -o-transform: rotate(45deg) translateX(60px);
+}
+#github-badge a:hover {
+  text-decoration: none;
+}
+#github-badge .repos {
+  text-align: left;
+}
+
