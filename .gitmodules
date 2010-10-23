@@ -1,0 +1,3 @@
+[submodule "bailitheoir"]
+	path = bailitheoir
+	url = git@github.com:jjbuckley/bailitheoir.git
