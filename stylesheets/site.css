@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Chunkfive';
+  src: url('/fonts/Chunkfive.eot');
+  src: local('☺'), url('/fonts/Chunkfive.woff') format('woff'), url('/fonts/Chunkfive.ttf') format('truetype'), url('../fonts/Chunkfive.svg#ChunkFive') format('svg');
+}
 body {
   font-family: "Lucida Grande", Arial, sans-serif;
   margin: 0 2em;
@@ -11,12 +16,15 @@ header,footer {
 }
 header,footer,h1,h2,h3,h4,h5 {
   color: #cccccc;
-  font-family: Sawasdee, "Trebuchet MS", sans-serif;
   -webkit-text-shadow: 0px 0px 0.1em #cccccc; -moz-text-shadow: 0px 0px 0.2em #cccccc; -o-text-shadow: 0px 0px 0.2em #cccccc; text-shadow: 0px 0px 0.1em #cccccc;
 }
 header {
   font-size: 140%;
   border-bottom: 1px solid rgb(204,204,204);
+  font-family: "Chunkfive", "Times New Toman", serif;
+}
+nav, footer {
+  font-family: "Sawasdee", "Trebuchet MS", sans-serif;
 }
 footer {
   margin-top: 1em;
