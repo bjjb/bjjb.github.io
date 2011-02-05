@@ -4,6 +4,7 @@ body {
   color: #444444;
 }
 header,footer {
+  display: relative;
   display: block;
   text-align: center;
   color: #cccccc;
@@ -61,7 +62,7 @@ a:visited {
 h1 a {
   color: #cccccc;
 }
-a.ribbon {
+.ribbon {
   position: absolute;
   top: 0;
   right: 0;
@@ -72,7 +73,7 @@ a.ribbon {
   font-family: Georgia, Verdana, serif;
   font-weight: bold;
   font-size: 11px;
-  color: white;
+  color: white !important;
   text-align: center;
 
   background-color: #bb3333;
@@ -83,6 +84,10 @@ a.ribbon {
   -webkit-transform: rotate(45deg) translateX(60px);
   -moz-transform: rotate(45deg) translateX(60px);
   -o-transform: rotate(45deg) translateX(60px);
+}
+.badge {
+  float: left;
+  padding: 10px;
 }
 #github-badge a:hover {
   text-decoration: none;
