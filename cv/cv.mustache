@@ -1,0 +1,77 @@
+Curriculum Vitae
+================
+
+{{name}} _{{tagline}}_
+
+> {{headline}}
+
+- __Name:__          _{{name}}_  
+- __E-mail:__        _{{email}}_  
+- __Phone:__         _{{phone}}_  
+- __Nationality:__   _{{nationality}}_  
+- __Date of Birth:__ _{{date_of_birth}}_  
+
+Education
+---------
+
+{{#education}}
+1. {{qualification}}         _{{institution}}_
+{{/education}}
+
+Experience
+----------
+
+{{#experience}}
+1. ### [{{company}}][{{id}}] _({{from}} - {{to}})_ ![Logo]({{id}}.png)
+   {{#position}}
+   * {{{to_s}}}
+   {{/position}}
+
+   {{{overview}}}
+{{/experience}}
+
+Spoken languages
+----------------
+{{#spoken_languages}}
+* {{to_s}}
+{{/spoken_languages}}
+
+Computer languages
+------------------
+_In descending order of familiarity and preference_
+
+{{#computer_languages}}
+* {{to_s}}
+{{/computer_languages}}
+
+Hobbies
+-------
+
+{{#hobbies}}
+* {{to_s}}
+{{/hobbies}}
+
+Links
+-----
+
+{{#links}}
+* [![{{name}}]({{id}}.png)][{{name}}]
+{{/links}}
+
+------------------------------------------------------------
+
+References are available on request.
+
+This CV is also in [HTML](cv.html), [PDF](cv.pdf), [JSON](cv.json),
+[XML](cv.xml) and [YAML](cv.yml).
+
+The source for this page is available [here](git://gist.github.com/2731707.git)
+
+
+{{#experience}}
+[{{id}}]: {{website}}
+{{/experience}}
+
+{{#links}}
+[{{name}}]: {{href}}
+{{/links}}

@@ -1,0 +1,65 @@
+require 'rake/clean'
+require 'yaml'
+require 'ostruct'
+
+CLEAN.include(%w|*.html *.xml *.json *.txt *.pdf *.css|)
+
+@cv = YAML.load_file('cv.yml')
+
+file 'cv.json' => 'cv.yml' do |t|
+  require 'json'
+  json = @cv.to_json
+  File.open(t.name, 'w') do |f|
+    f << json
+  end
+end
+
+file 'cv.xml' => 'cv.yml' do |t|
+  require 'active_support/core_ext/hash/conversions'
+  xml = @cv.to_xml
+  File.open(t.name, 'w') do |f|
+    f << xml
+  end
+end
+
+file 'cv.txt' => FileList['cv.yml', 'cv.mustache'] do |t|
+  require 'mustache'
+  txt = Mustache.render(File.read(t.name.ext('mustache')), @cv)
+  File.open(t.name, 'w') do |f|
+    f << txt
+  end
+end
+
+file 'cv.css' => 'cv.scss' do |t|
+  require 'sass'
+  css = Sass::Engine.new(File.read(t.name.ext('scss')), :syntax => :scss).render 
+  File.open(t.name, 'w') do |f|
+    f << css
+  end
+end
+
+file 'cv.html' => FileList['cv.haml', 'cv.txt', 'cv.yml'] do |t|
+  require 'maruku'
+  require 'haml'
+  cv = OpenStruct.new(@cv)
+  cv.css = File.read('cv.css')
+  cv.body = File.read('cv.txt')
+  html = Haml::Engine.new(File.read(t.name.ext('haml'))).render(cv)
+  File.open(t.name, 'w') do |f|
+    f << html
+  end
+end
+
+file 'cv.pdf' => FileList['cv.html', 'cv.css'] do |t|
+  require 'wicked_pdf'
+  html = File.read(t.name.ext('html'))
+  html.gsub!(/(cv.css|\w+\.png)/) { |m| "file://#{File.expand_path($&)}" }
+  File.open('/tmp/x', 'w') { |f| f << html }
+  pdf = WickedPdf.new.pdf_from_string(html)
+  File.open(t.name, 'wb') do |f|
+    f << pdf
+  end
+end
+
+TARGETS = FileList['cv.json', 'cv.xml', 'cv.txt', 'cv.css', 'cv.html', 'cv.pdf']
+task :default => TARGETS
