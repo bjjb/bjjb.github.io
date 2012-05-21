@@ -15,14 +15,18 @@ cv.yml file.  It uses a few gems for this:
 
 I just run `rake` after updating the YAML file, and everything gets updated.
 
-![preview.png][:preview]
+![Preview here...](https://github.com/jjbuckley/jjbuckley.github.com/raw/master/cv/preview.png "The finished product")
 
+Copyright & thanks
+------------------
+
+It's free. I got the icons from [icons], I think.
 TODO
 ----
 
 1. Improve the PDF generation. Particularly, as webkit2pdf isn't readily
    available on OSX/Windows, make a web-app to do create the PDF, and use that.
-2. Be more generic about the name of the file. Rather than insisting on cv._x_,
+2. Be more generic about the name of the file. Rather than insisting on _cv_
    allow the base file name to be anything.
 
 [rakefile]: https://github.com/jjbuckley/jjbuckley.github.com/blob/master/cv/Rakefile
@@ -35,5 +39,5 @@ TODO
 [sass]: http://sass-lang.com/
 [mustache]: https://github.com/defunkt/mustache
 [maruku]: https://github.com/nex3/maruku
-[preview]: preview.png "The finished product"
 [markdown]: http://daringfireball.net/projects/markdown
+[icons]: http://effectivefive.deviantart.com/
