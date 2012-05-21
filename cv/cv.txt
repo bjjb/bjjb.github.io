@@ -129,7 +129,8 @@ References are available on request.
 This CV is also in [HTML](cv.html), [PDF](cv.pdf), [JSON](cv.json),
 [XML](cv.xml) and [YAML](cv.yml).
 
-The source for this page is available [here](git://gist.github.com/2731707.git)
+The source for this page is available
+[here](https://github.com/jjbuckley/jjbuckley.github.com/tree/master/cv)
 
 
 [eicon]: http://www.eiconworks.com

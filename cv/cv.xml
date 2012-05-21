@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hash>
-  <name>Bryan JJ Buckley</name>
-  <goes-by type="array">
-    <goes-by>JJ</goes-by>
-    <goes-by>Bryan</goes-by>
-  </goes-by>
-  <tagline>Coder</tagline>
-  <headline>Looking for an interesting senior software-development position in a forward-thinking Berlin team using either NodeJS or Ruby on Rails.
-</headline>
-  <date-of-birth type="date">1978-10-24</date-of-birth>
-  <email>jjbuckley@gmail.com</email>
-  <phone>+49 176 49805866</phone>
+  <other-formats type="array">
+    <other-formats>yml</other-formats>
+    <other-formats>txt</other-formats>
+    <other-formats>json</other-formats>
+    <other-formats>xml</other-formats>
+    <other-formats>html</other-formats>
+    <other-formats>pdf</other-formats>
+  </other-formats>
   <nationality>Irish</nationality>
-  <spoken-languages type="array">
-    <spoken-languages>English</spoken-languages>
-    <spoken-languages>German</spoken-languages>
-    <spoken-languages>Irish</spoken-languages>
-  </spoken-languages>
+  <name>Bryan JJ Buckley</name>
   <computer-languages type="array">
     <computer-languages>Ruby</computer-languages>
     <computer-languages>CoffeeScript</computer-languages>
@@ -32,26 +25,22 @@
     <computer-languages>C++</computer-languages>
     <computer-languages>SQL</computer-languages>
   </computer-languages>
-  <education type="array">
-    <education>
-      <qualification>BSc in Software Development and Computer Networks</qualification>
-      <institution>CIT (Cork Institute of Technology)</institution>
-    </education>
-    <education>
-      <qualification>CCNA (Cisco Certified Network Associate)</qualification>
-      <institution>Cisco Networking Academy</institution>
-    </education>
-  </education>
+  <email>jjbuckley@gmail.com</email>
+  <headline>Looking for an interesting senior software-development position in a forward-thinking Berlin team using either NodeJS or Ruby on Rails.
+</headline>
+  <goes-by type="array">
+    <goes-by>JJ</goes-by>
+    <goes-by>Bryan</goes-by>
+  </goes-by>
   <experience type="array">
     <experience>
-      <company>Dialogic</company>
-      <from>2001</from>
-      <to>2007</to>
       <position type="array">
         <position>Intern</position>
         <position>Software Developer</position>
         <position>Senior Software Engineer</position>
       </position>
+      <website>http://www.eiconworks.com</website>
+      <company>Dialogic</company>
       <overview>Dialogic (formerly Eicon Networks) are a global manufacturer of ISDN and DSL
 hardware. After doing my work experience there as part of the BSc in
 Software Development and Computer Networks, I was hired as a software engineer
@@ -64,18 +53,17 @@ Rails application which generates certificates for enabling driver features in
 Eicon's entire telephony range. Thus encouraged, I decided to work on Rails
 full-time.
 </overview>
-      <website>http://www.eiconworks.com</website>
+      <from>2001</from>
       <id>eicon</id>
+      <to>2007</to>
     </experience>
     <experience>
-      <company>Travel IQ</company>
       <position type="array">
         <position>Senior Software Developer</position>
         <position>Architect</position>
       </position>
-      <title>Travel IQ</title>
-      <from>2007</from>
-      <to>2009</to>
+      <website>http://travel-iq.de</website>
+      <company>Travel IQ</company>
       <overview>Travel IQ was my first experience with a start-up, and it brought me to
 Berlin. In 2006, after a telephone interview with the CTO, I was asked to come
 to Berlin to meet the team of the fledgeling startup. I moved to Friedrichshain
@@ -85,17 +73,23 @@ expanding team, we set about re-writing the platform for Rails 2. In October
 2008, version 2 was live, and in 2009, the company was aquired by Check24.
 Mission accomplished, I left to travel.
 </overview>
-      <website>http://travel-iq.de</website>
+      <from>2007</from>
+      <title>Travel IQ</title>
       <id>tiq</id>
+      <to>2009</to>
     </experience>
     <experience>
-      <company>eBay</company>
-      <from>2010</from>
-      <to>2012</to>
       <position type="array">
         <position>IT Consultant</position>
         <position>Software Solutions Vendor</position>
       </position>
+      <website>http://ebay.com</website>
+      <links type="array">
+        <links>http://deutschland-index.com</links>
+        <links>http://pm.bjjbuckley.com</links>
+        <links>http://github.com/jjbuckley/ebayr</links>
+      </links>
+      <company>eBay</company>
       <overview>In between travels, I've done some project work for eBay GmbH in Dreilinden.
 I've whipped together a gem for using the eBay Trading API, and have built a
 couple of Rails apps (one in Rails 2.3, and a more recent one Rails 3.2) which
@@ -106,21 +100,19 @@ introduction to CarrierWave), and a mobile front-end to the eBay Open
 Global Competition app. As this is likely to continue, I spend some spare time
 improving the eBay Open JSON API, and the open-source eBayR gem.
 </overview>
-      <website>http://ebay.com</website>
-      <links type="array">
-        <links>http://deutschland-index.com</links>
-        <links>http://pm.bjjbuckley.com</links>
-        <links>http://github.com/jjbuckley/ebayr</links>
-      </links>
+      <from>2010</from>
       <id>ebay</id>
+      <to>2012</to>
     </experience>
     <experience>
-      <company>TrainMySelf</company>
       <position type="array">
         <position>CTO</position>
       </position>
-      <from>2011</from>
-      <to>2012</to>
+      <website>http://trainmyself.com</website>
+      <links type="array">
+        <links>http://blog.trainmyself.com</links>
+      </links>
+      <company>TrainMySelf</company>
       <overview>TrainMySelf GmbH is a company founded in 2011 by three guys from South Tyrol
 and me (as CTO and lead - sometimes only - developer). The idea was to
 produce an iPhone and Android app that delivers customized training plans to
@@ -132,21 +124,22 @@ powered by a JSON API which generates the training plans (in three
 languages). TrainMySelf is due to be in beta in early June, at which point I
 will be ready to devote the bulk of my energy to another exciting project.
 </overview>
-      <website>http://trainmyself.com</website>
-      <links type="array">
-        <links>http://blog.trainmyself.com</links>
-      </links>
+      <from>2011</from>
       <id>tms</id>
+      <to>2012</to>
     </experience>
   </experience>
-  <hobbies type="array">
-    <hobbies>Guitar playing</hobbies>
-    <hobbies>Karate</hobbies>
-    <hobbies>Travelling</hobbies>
-    <hobbies>Football (watching, not playing)</hobbies>
-    <hobbies>Rugby (watching and playing)</hobbies>
-    <hobbies>Learning new things</hobbies>
-  </hobbies>
+  <education type="array">
+    <education>
+      <qualification>BSc in Software Development and Computer Networks</qualification>
+      <institution>CIT (Cork Institute of Technology)</institution>
+    </education>
+    <education>
+      <qualification>CCNA (Cisco Certified Network Associate)</qualification>
+      <institution>Cisco Networking Academy</institution>
+    </education>
+  </education>
+  <date-of-birth type="date">1978-10-24</date-of-birth>
   <links type="array">
     <links>
       <name>GitHub Profile</name>
@@ -169,12 +162,19 @@ will be ready to devote the bulk of my energy to another exciting project.
       <id>twitter</id>
     </links>
   </links>
-  <other-formats type="array">
-    <other-formats>yml</other-formats>
-    <other-formats>txt</other-formats>
-    <other-formats>json</other-formats>
-    <other-formats>xml</other-formats>
-    <other-formats>html</other-formats>
-    <other-formats>pdf</other-formats>
-  </other-formats>
+  <spoken-languages type="array">
+    <spoken-languages>English</spoken-languages>
+    <spoken-languages>German</spoken-languages>
+    <spoken-languages>Irish</spoken-languages>
+  </spoken-languages>
+  <hobbies type="array">
+    <hobbies>Guitar playing</hobbies>
+    <hobbies>Karate</hobbies>
+    <hobbies>Travelling</hobbies>
+    <hobbies>Football (watching, not playing)</hobbies>
+    <hobbies>Rugby (watching and playing)</hobbies>
+    <hobbies>Learning new things</hobbies>
+  </hobbies>
+  <phone>+49 176 49805866</phone>
+  <tagline>Coder</tagline>
 </hash>
