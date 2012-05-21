@@ -20,7 +20,7 @@ I just run `rake` after updating the YAML file, and everything gets updated.
 Copyright & thanks
 ------------------
 
-It's free. I got the icons from [icons], I think.
+It's free. I got the icons from [here][icons], I think.
 TODO
 ----
 
