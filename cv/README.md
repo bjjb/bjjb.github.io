@@ -7,7 +7,7 @@ cv.yml file.  It uses a few gems for this:
 * [activesupport][activesupport], for generating the XML/JSON
 * [json][json], for generating JSON on Ruby 1.8
 * [wicked_pdf][wicked_pdf], for the PDF version (note that
-  [webkit2pdf][webkit2pdf] must be installed.)
+  [webkit2pdf][webkit2pdf] must be installed, or [wkhtmltopdf][wkhtmltopdf])
 * [haml][haml], for structuring the HTML
 * [sass][sass], for generating the style
 * [mustache][mustache], for generating the text version
@@ -35,6 +35,7 @@ TODO
 [json]: http://flori.github.com/json/
 [wicked_pdf]: https://github.com/mileszs/wicked_pdf
 [webkit2pdf]: http://webkit2pdf.sourceforge.net/
+[wkhtmltopdf]: http://code.google.com/p/wkhtmltopdf/
 [haml]: http://haml.info/
 [sass]: http://sass-lang.com/
 [mustache]: https://github.com/defunkt/mustache
