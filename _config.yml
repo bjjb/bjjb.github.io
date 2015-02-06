@@ -1,8 +1,4 @@
-# Run the server every time jekyll is run
-server: true
-# Regenerate files when they're modified
-auto: true
 # Enable code highlighting
-pygments: true
+highlighter: true
 # Site index
 lst: true

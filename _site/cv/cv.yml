@@ -1,0 +1,161 @@
+--- 
+name: Bryan JJ Buckley
+
+goes_by:
+- JJ
+- Bryan
+
+tagline: Coder
+
+headline: >
+  Looking for an interesting senior software-development position in a
+  forward-thinking Berlin team using either NodeJS or Ruby on Rails.
+
+date_of_birth: 1978-10-24
+
+email: jjbuckley@gmail.com
+
+phone: "+49 176 49805866"
+
+nationality: Irish
+
+spoken_languages: 
+- English
+- German
+- Irish
+
+computer_languages: 
+# in descending order of experience and comfort
+- Ruby
+- CoffeeScript
+- SASS
+- HAML
+- Javascript
+- HTML
+- CSS
+- Python
+- C
+- Ada
+- Lua
+- C++
+- SQL
+
+education:
+- qualification: BSc in Software Development and Computer Networks
+  institution: CIT (Cork Institute of Technology)
+- qualification: CCNA (Cisco Certified Network Associate)
+  institution: Cisco Networking Academy
+
+experience: 
+# in chronological order
+- company: Dialogic
+  from: "2001"
+  to: "2007"
+  position: 
+  - Intern
+  - Software Developer
+  - Senior Software Engineer
+  overview: |
+    Dialogic (formerly Eicon Networks) are a global manufacturer of ISDN and DSL
+    hardware. After doing my work experience there as part of the BSc in
+    Software Development and Computer Networks, I was hired as a software engineer
+    for the embedded team.  There I worked primarily on protocol stacks for the
+    various firmwares (always in C). After some time, I moved onto developing
+    Windows drivers in C++. I discovered first Python and then Ruby whilst looking
+    for a solution to improve the build system for a newly acquired line of ISDN
+    modems and their driver packages. I later had the opportunity to write an early
+    Rails application which generates certificates for enabling driver features in
+    Eicon's entire telephony range. Thus encouraged, I decided to work on Rails
+    full-time.
+  website: http://www.eiconworks.com
+  id: eicon
+- company: Travel IQ
+  position: 
+  - Senior Software Developer
+  - Architect
+  title: Travel IQ
+  from: "2007"
+  to: "2009"
+  overview: |
+    Travel IQ was my first experience with a start-up, and it brought me to
+    Berlin. In 2006, after a telephone interview with the CTO, I was asked to come
+    to Berlin to meet the team of the fledgeling startup. I moved to Friedrichshain
+    in February 2007, and worked with Mathias and 4 part-time students to get the
+    app online for August 1st. After the launch, as senior developer/architect in an
+    expanding team, we set about re-writing the platform for Rails 2. In October
+    2008, version 2 was live, and in 2009, the company was aquired by Check24.
+    Mission accomplished, I left to travel.
+  website: http://travel-iq.de
+  id: tiq
+- company: eBay
+  from: "2010"
+  to: "2012"
+  position:
+  - IT Consultant
+  - Software Solutions Vendor
+  overview: |
+    In between travels, I've done some project work for eBay GmbH in Dreilinden.
+    I've whipped together a gem for using the eBay Trading API, and have built a
+    couple of Rails apps (one in Rails 2.3, and a more recent one Rails 3.2) which
+    are used for ranking signed-up users by their eBay trading data. The apps are
+    used internally by eBay to encourage customer engagement, and to push particular
+    verticals as needed. Other work includes a HTML5 photo-gallery (my first
+    introduction to CarrierWave), and a mobile front-end to the eBay Open
+    Global Competition app. As this is likely to continue, I spend some spare time
+    improving the eBay Open JSON API, and the open-source eBayR gem.
+  website: http://ebay.com
+  links:
+  - http://deutschland-index.com
+  - http://pm.bjjbuckley.com
+  - http://github.com/jjbuckley/ebayr
+  id: ebay
+- company: TrainMySelf
+  position:
+  - CTO
+  from: "2011"
+  to: "2012"
+  overview: |
+    TrainMySelf GmbH is a company founded in 2011 by three guys from South Tyrol
+    and me (as CTO and lead - sometimes only - developer). The idea was to
+    produce an iPhone and Android app that delivers customized training plans to
+    marathon runners. Over the last year, we've hired a couple of additional
+    developers part-time and graphic designers, and it's grown to more of an
+    app-platform - with an administration interface to allow customization of
+    the mobile apps, and a delivery system for PhoneGap applications, all
+    powered by a JSON API which generates the training plans (in three
+    languages). TrainMySelf is due to be in beta in early June, at which point I
+    will be ready to devote the bulk of my energy to another exciting project.
+  website: http://trainmyself.com
+  links:
+  - http://blog.trainmyself.com
+  id: tms
+
+hobbies:
+- Guitar playing
+- Karate
+- Travelling
+- Football (watching, not playing)
+- Rugby (watching and playing)
+- Learning new things
+
+links:
+- name: GitHub Profile
+  href: http://github.com/jjbuckley
+  id: github
+- name: Blog (when I blog)
+  href: http://blog.bjjb.org
+  id: tumblr
+- name: Google+
+  href: https://plus.google.com/115358926435312925527
+  id: google
+- name: Twitter feed
+  href: http://twitter.com/#!/bjjbuckley
+  id: twitter
+  
+other_formats:
+- yml
+- txt
+- json
+- xml
+- html
+- pdf
