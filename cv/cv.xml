@@ -27,6 +27,7 @@
     <computer-language>HTML</computer-language>
     <computer-language>CSS</computer-language>
     <computer-language>Python</computer-language>
+    <computer-language>Java</computer-language>
     <computer-language>C</computer-language>
     <computer-language>Lisp</computer-language>
     <computer-language>Ada</computer-language>
@@ -161,16 +162,16 @@ coding miscellaneous APIs and gems for their consumption.
       </position>
       <from>2011</from>
       <to>2016</to>
-      <overview>TrainMySelf GmbH is a company founded in 2011 by three guys from South Tyrol
+      <overview>TrainMySelf GmbH was a company founded in 2011 by three guys from South Tyrol
 and me (as CTO and lead - sometimes only - developer). The idea was to
 produce an iPhone and Android app that delivers customized training plans to
-marathon runners. Over the last year, we've hired a couple of additional
-developers part-time and graphic designers, and it's grown to more of an
+marathon runners. Over its latter years, we hired a couple of additional
+developers part-time and graphic designers, and it grew to more of an
 app-platform - with an administration interface to allow customization of
 the mobile apps, and a delivery system for PhoneGap applications, all
 powered by a JSON API which generates the training plans (in three
-languages). TrainMySelf is due to be in beta in early June, at which point I
-will be ready to devote the bulk of my energy to another exciting project.
+languages). TrainMySelf GmbH was disbanded in 2015, after shifting the
+focus of the platform to health and recuperation apps.
 </overview>
       <website>http://trainmyself.com</website>
       <links type="array">

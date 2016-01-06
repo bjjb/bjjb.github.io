@@ -41,8 +41,7 @@ h1 {
     margin-top: 0;
     font-weight: bold; }
     h1 ~ p:first-of-type em {
-      float: right;
-      color: #aaaaaa; }
+      float: right; }
 
 blockquote {
   color: #777777;
