@@ -9,6 +9,9 @@ body {
   line-height: 1.5em;
   padding-bottom: 2em; }
 
+em {
+  font-style: normal; }
+
 h1, h2, h3 {
   margin-top: 2.8em;
   margin-bottom: 1em;

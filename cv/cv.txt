@@ -1,7 +1,7 @@
 Curriculum Vitae
 ================
 
-Bryan JJ Buckley _Full-stack architect and coder_
+Bryan JJ Buckley _Full-stack Architect and Coder_
 
 > Looking for an interesting senior software-development position in a forward-thinking Berlin team using either NodeJS or Ruby on Rails.
 
