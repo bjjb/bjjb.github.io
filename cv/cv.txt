@@ -89,7 +89,7 @@ several short projects, including improving their image-uploading
 services, remodelling some of their MySQL database, and designing and
 coding miscellaneous APIs and gems for their consumption.
 
-1. ### [TrainMySelf][tms] _(2011 - 2016)_ ![Logo](tms.png)
+1. ### [TrainMySelf][tms] _(2011 - 2015)_ ![Logo](tms.png)
    * CTO
 
    TrainMySelf GmbH was a company founded in 2011 by three guys from South Tyrol
