@@ -109,6 +109,7 @@ Spoken languages
 * English
 * German
 * Irish
+* Spanish
 
 Computer languages
 ------------------

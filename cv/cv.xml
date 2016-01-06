@@ -16,6 +16,7 @@
     <spoken-language>English</spoken-language>
     <spoken-language>German</spoken-language>
     <spoken-language>Irish</spoken-language>
+    <spoken-language>Spanish</spoken-language>
   </spoken-languages>
   <computer-languages type="array">
     <computer-language>Ruby</computer-language>
