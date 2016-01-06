@@ -1,6 +1,7 @@
 $text: #444;
 $light-text: lighten($text, 20%);
 $link: adjust-color($text, $blue: 100%);
+$heading-font: "Monsterrat";
 
 @mixin transition($spec) {
   -webkit-transition: $spec;
@@ -29,7 +30,7 @@ body {
 h1, h2, h3 {
   margin-top: 2.8em;
   margin-bottom: 1em;
-  font-family: "Cantana One", serif;
+  font-family: $heading-font, sans-serif;
 }
 
 h2 {
