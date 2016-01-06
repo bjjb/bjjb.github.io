@@ -1,7 +1,7 @@
 $text: #444;
 $light-text: lighten($text, 20%);
 $link: adjust-color($text, $blue: 100%);
-$heading-font: "Monsterrat";
+$heading-font: "Montserrat";
 
 @mixin transition($spec) {
   -webkit-transition: $spec;
