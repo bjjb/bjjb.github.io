@@ -5,7 +5,7 @@ goes_by:
 - JJ
 - Bryan
 
-tagline: Coder
+tagline: Full-stack architect and coder
 
 headline: >
   Looking for an interesting senior software-development position in a
@@ -35,6 +35,7 @@ computer_languages:
 - CSS
 - Python
 - C
+- Lisp
 - Ada
 - Lua
 - C++
@@ -89,7 +90,7 @@ experience:
   id: tiq
 - company: eBay
   from: "2010"
-  to: "2012"
+  to: "2016"
   position:
   - IT Consultant
   - Software Solutions Vendor
@@ -109,11 +110,43 @@ experience:
   - http://pm.bjjbuckley.com
   - http://github.com/jjbuckley/ebayr
   id: ebay
+- company: SAP
+  position:
+  - Software Solutions Vendor
+  from: "2014"
+  to: "2014"
+  overview: |
+    I was contracted by SAP to build an internal application, to manage their
+    security division's penetration tests every year. The app is mostly a
+    straightforward PostgreSQL backed RoR application, with incrementally more
+    detailed views for increasing levels of user responsibility, with
+    facilities to import data from Excel spreadsheets, and to generate PDF
+    reports. The app is continuously deployed in a docker container upon SAP's
+    internal PaaS system.
+  website: http://sap.com
+  id: sap
+- company: DaWanda
+  position:
+  - Software Consultant
+  from: "2012"
+  to: "2014"
+  overview: |
+    For DaWanda, I was the senior consultant on several of their projects, the
+    largest and most challenging of which were the rearchitcture of their
+    backend system (to an elastic, zero-downtime distributed VS cluster), and
+    the overhaul of their UI to a mobile-first, responsive layout for all
+    user-facing pages. I returned in 2014 to provide a Sinatra replacement for
+    their core legacy Rails app for their API services. In between were
+    several short projects, including improving their image-uploading
+    services, remodelling some of their MySQL database, and designing and
+    coding miscellaneous APIs and gems for their consumption.
+  website: http://dawanda.com
+  id: dawanda
 - company: TrainMySelf
   position:
   - CTO
   from: "2011"
-  to: "2012"
+  to: "2016"
   overview: |
     TrainMySelf GmbH is a company founded in 2011 by three guys from South Tyrol
     and me (as CTO and lead - sometimes only - developer). The idea was to
@@ -132,10 +165,9 @@ experience:
 
 hobbies:
 - Guitar playing
-- Karate
 - Travelling
-- Football (watching, not playing)
-- Rugby (watching and playing)
+- Karate
+- Football (soccer, rugby or GAA)
 - Learning new things
 
 links:
@@ -158,4 +190,5 @@ other_formats:
 - json
 - xml
 - html
-- pdf
+#- pdf
+# wkpdftohtml is a bit broken

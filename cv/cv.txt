@@ -1,7 +1,7 @@
 Curriculum Vitae
 ================
 
-Bryan JJ Buckley _Coder_
+Bryan JJ Buckley _Full-stack architect and coder_
 
 > Looking for an interesting senior software-development position in a forward-thinking Berlin team using either NodeJS or Ruby on Rails.
 
@@ -51,7 +51,7 @@ expanding team, we set about re-writing the platform for Rails 2. In October
 2008, version 2 was live, and in 2009, the company was aquired by Check24.
 Mission accomplished, I left to travel.
 
-1. ### [eBay][ebay] _(2010 - 2012)_ ![Logo](ebay.png)
+1. ### [eBay][ebay] _(2010 - 2016)_ ![Logo](ebay.png)
    * IT Consultant
    * Software Solutions Vendor
 
@@ -65,7 +65,31 @@ introduction to CarrierWave), and a mobile front-end to the eBay Open
 Global Competition app. As this is likely to continue, I spend some spare time
 improving the eBay Open JSON API, and the open-source eBayR gem.
 
-1. ### [TrainMySelf][tms] _(2011 - 2012)_ ![Logo](tms.png)
+1. ### [SAP][sap] _(2014 - 2014)_ ![Logo](sap.png)
+   * Software Solutions Vendor
+
+   I was contracted by SAP to build an internal application, to manage their
+security division's penetration tests every year. The app is mostly a
+straightforward PostgreSQL backed RoR application, with incrementally more
+detailed views for increasing levels of user responsibility, with
+facilities to import data from Excel spreadsheets, and to generate PDF
+reports. The app is continuously deployed in a docker container upon SAP's
+internal PaaS system.
+
+1. ### [DaWanda][dawanda] _(2012 - 2014)_ ![Logo](dawanda.png)
+   * Software Consultant
+
+   For DaWanda, I was the senior consultant on several of their projects, the
+largest and most challenging of which were the rearchitcture of their
+backend system (to an elastic, zero-downtime distributed VS cluster), and
+the overhaul of their UI to a mobile-first, responsive layout for all
+user-facing pages. I returned in 2014 to provide a Sinatra replacement for
+their core legacy Rails app for their API services. In between were
+several short projects, including improving their image-uploading
+services, remodelling some of their MySQL database, and designing and
+coding miscellaneous APIs and gems for their consumption.
+
+1. ### [TrainMySelf][tms] _(2011 - 2016)_ ![Logo](tms.png)
    * CTO
 
    TrainMySelf GmbH is a company founded in 2011 by three guys from South Tyrol
@@ -99,6 +123,7 @@ _In descending order of familiarity and preference_
 * CSS
 * Python
 * C
+* Lisp
 * Ada
 * Lua
 * C++
@@ -108,10 +133,9 @@ Hobbies
 -------
 
 * Guitar playing
-* Karate
 * Travelling
-* Football (watching, not playing)
-* Rugby (watching and playing)
+* Karate
+* Football (soccer, rugby or GAA)
 * Learning new things
 
 Links
@@ -126,7 +150,7 @@ Links
 
 References are available on request.
 
-This CV is also in [HTML](cv.html), [PDF](cv.pdf), [JSON](cv.json),
+This CV is also in [HTML](cv.html), [JSON](cv.json),
 [XML](cv.xml) and [YAML](cv.yml).
 
 The source for this page is available
@@ -136,6 +160,8 @@ The source for this page is available
 [eicon]: http://www.eiconworks.com
 [tiq]: http://travel-iq.de
 [ebay]: http://ebay.com
+[sap]: http://sap.com
+[dawanda]: http://dawanda.com
 [tms]: http://trainmyself.com
 
 [GitHub Profile]: http://github.com/jjbuckley
