@@ -110,7 +110,7 @@ experience:
   links:
   - http://deutschland-index.com
   - http://pm.bjjbuckley.com
-  - http://github.com/jjbuckley/ebayr
+  - https://github.com/bjjb/ebayr
   id: ebay
 - company: SAP
   position:
@@ -174,7 +174,7 @@ hobbies:
 
 links:
 - name: GitHub Profile
-  href: http://github.com/jjbuckley
+  href: https://github.com/bjjb
   id: github
 - name: Blog (when I blog)
   href: http://blog.bjjb.org
@@ -183,7 +183,7 @@ links:
   href: https://plus.google.com/115358926435312925527
   id: google
 - name: Twitter feed
-  href: http://twitter.com/#!/bjjbuckley
+  href: https://twitter.com/bjjbuckley
   id: twitter
   
 other_formats:
