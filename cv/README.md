@@ -21,13 +21,14 @@ Copyright & thanks
 ------------------
 
 It's free. I got the icons from [here][icons], I think.
+
 TODO
 ----
 
-1. Improve the PDF generation. Particularly, as webkit2pdf isn't readily
-   available on OSX/Windows, make a web-app to do create the PDF, and use that.
-2. Be more generic about the name of the file. Rather than insisting on _cv_
-   allow the base file name to be anything.
+- [ ] Improve the PDF generation. Particularly, as webkit2pdf isn't readily
+  available on OSX/Windows, make a web-app to do create the PDF, and use that.
+- [ ] Be more generic about the name of the file. Rather than insisting on
+  _cv_ allow the base file name to be anything.
 
 [Rakefile]: https://github.com/bjjb/bjjb.github.io/blob/master/cv/Rakefile
 [cv]: http://jjbuckley.github.com/cv/cv.html

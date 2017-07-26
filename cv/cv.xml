@@ -5,11 +5,11 @@
     <goes-by>JJ</goes-by>
     <goes-by>Bryan</goes-by>
   </goes-by>
-  <tagline>Full-stack Architect and Coder</tagline>
-  <headline>Looking for an interesting senior software-development position in a forward-thinking Berlin team using either NodeJS or Ruby on Rails.
+  <tagline>Full-stack Internet Builder</tagline>
+  <headline>Looking for an interesting senior software-development position in a forward-thinking Berlin or remote team using Go, Ruby, Elixir, Javascript or Python.
 </headline>
   <date-of-birth type="date">1978-10-24</date-of-birth>
-  <email>jjbuckley@gmail.com</email>
+  <email>jj@bjjb.org</email>
   <phone>+49 176 49805866</phone>
   <nationality>Irish</nationality>
   <spoken-languages type="array">
@@ -21,15 +21,16 @@
   <computer-languages type="array">
     <computer-language>Ruby</computer-language>
     <computer-language>CoffeeScript</computer-language>
+    <computer-language>Javascript</computer-language>
     <computer-language>SASS</computer-language>
     <computer-language>HAML</computer-language>
-    <computer-language>Javascript</computer-language>
     <computer-language>HTML</computer-language>
     <computer-language>CSS</computer-language>
     <computer-language>Python</computer-language>
     <computer-language>Java</computer-language>
     <computer-language>C</computer-language>
     <computer-language>Lisp</computer-language>
+    <computer-language>Elixir</computer-language>
     <computer-language>Ada</computer-language>
     <computer-language>Lua</computer-language>
     <computer-language>C++</computer-language>
@@ -55,17 +56,17 @@
         <position>Software Developer</position>
         <position>Senior Software Engineer</position>
       </position>
-      <overview>Dialogic (formerly Eicon Networks) are a global manufacturer of ISDN and DSL
-hardware. After doing my work experience there as part of the BSc in
-Software Development and Computer Networks, I was hired as a software engineer
-for the embedded team.  There I worked primarily on protocol stacks for the
-various firmwares (always in C). After some time, I moved onto developing
-Windows drivers in C++. I discovered first Python and then Ruby whilst looking
-for a solution to improve the build system for a newly acquired line of ISDN
-modems and their driver packages. I later had the opportunity to write an early
-Rails application which generates certificates for enabling driver features in
-Eicon's entire telephony range. Thus encouraged, I decided to work on Rails
-full-time.
+      <overview>Dialogic (formerly Eicon Networks) are a global manufacturer of ISDN and
+DSL hardware. After doing my work experience there as part of the BSc in
+Software Development and Computer Networks, I was hired as a software
+engineer for the embedded team.  There I worked primarily on protocol
+stacks for the various firmwares (always in C). After some time, I moved
+onto developing Windows drivers in C++. I discovered first Python and then
+Ruby whilst looking for a solution to improve the build system for a newly
+acquired line of ISDN modems and their driver packages. I later had the
+opportunity to write an early Rails application which generates
+certificates for enabling driver features in the Eicon telephony hardware
+range. Thus encouraged, I decided to work on Rails full-time.
 </overview>
       <website>http://www.eiconworks.com</website>
       <id>eicon</id>
@@ -80,15 +81,16 @@ full-time.
       <from>2007</from>
       <to>2009</to>
       <overview>Travel IQ was my first experience with a start-up, and it brought me to
-Berlin. In 2006, after a telephone interview with the CTO, I was asked to come
-to Berlin to meet the team of the fledgeling startup. I moved to Friedrichshain
-in February 2007, and worked with Mathias and 4 part-time students to get the
-app online for August 1st. After the launch, as senior developer/architect in an
-expanding team, we set about re-writing the platform for Rails 2. In October
-2008, version 2 was live, and in 2009, the company was aquired by Check24.
-Mission accomplished, I left to travel.
+Berlin. In 2006, after a telephone interview with the CTO, I was asked to
+come to Berlin to meet the team of the fledgeling startup. I moved to
+Friedrichshain in February 2007, and worked with Mathias and 4 part-time
+students to get the app online for August 1st. After the launch, as senior
+developer/architect in an expanding team, we set about re-writing the
+platform for Rails 2. In October 2008, version 2 was live, and in 2009,
+the company was aquired by Check24.  Mission accomplished, I left to
+travel.
 </overview>
-      <website>http://travel-iq.de</website>
+      <website>http://www.testberichte.de/p/traveliq-de-tests/flugpreisvergleich-testbericht.html</website>
       <id>tiq</id>
     </experience>
     <experience>
@@ -99,20 +101,19 @@ Mission accomplished, I left to travel.
         <position>IT Consultant</position>
         <position>Software Solutions Vendor</position>
       </position>
-      <overview>In between travels, I've done some project work for eBay GmbH in Dreilinden.
-I've whipped together a gem for using the eBay Trading API, and have built a
-couple of Rails apps (one in Rails 2.3, and a more recent one Rails 3.2) which
-are used for ranking signed-up users by their eBay trading data. The apps are
-used internally by eBay to encourage customer engagement, and to push particular
-verticals as needed. Other work includes a HTML5 photo-gallery (my first
-introduction to CarrierWave), and a mobile front-end to the eBay Open
-Global Competition app. As this is likely to continue, I spend some spare time
-improving the eBay Open JSON API, and the open-source eBayR gem.
+      <overview>In between travels, I've done some project work for eBay GmbH in
+Dreilinden.  I've whipped together a gem for using the eBay Trading API,
+and have built a couple of Rails apps (one in Rails 2.3, and a more recent
+one Rails 3.2) which are used for ranking signed-up users by their eBay
+trading data. The apps are used internally by eBay to encourage customer
+engagement, and to push particular verticals as needed. Other work
+includes a HTML5 photo-gallery (my first introduction to CarrierWave), and
+a mobile front-end to the eBay Open Global Competition app. As this is
+likely to continue, I spend some spare time improving the eBay Open JSON
+API, and the open-source eBayR gem.
 </overview>
       <website>http://ebay.com</website>
       <links type="array">
-        <link>http://deutschland-index.com</link>
-        <link>http://pm.bjjbuckley.com</link>
         <link>http://github.com/jjbuckley/ebayr</link>
       </links>
       <id>ebay</id>
@@ -162,22 +163,63 @@ coding miscellaneous APIs and gems for their consumption.
       </position>
       <from>2011</from>
       <to>2015</to>
-      <overview>TrainMySelf GmbH was a company founded in 2011 by three guys from South Tyrol
-and me (as CTO and lead - sometimes only - developer). The idea was to
-produce an iPhone and Android app that delivers customized training plans to
-marathon runners. Over its latter years, we hired a couple of additional
-developers part-time and graphic designers, and it grew to more of an
-app-platform - with an administration interface to allow customization of
-the mobile apps, and a delivery system for PhoneGap applications, all
-powered by a JSON API which generates the training plans (in three
-languages). TrainMySelf GmbH was disbanded in 2015, after shifting the
-focus of the platform to health and recuperation apps.
+      <overview>TrainMySelf GmbH was a company founded in 2011 by three guys from South
+Tyrol and me (as CTO and lead - sometimes only - developer). The idea was
+to produce an iPhone and Android app that delivers customized training
+plans to marathon runners. Over its latter years, we hired a couple of
+additional developers part-time and graphic designers, and it grew to more
+of an app-platform - with an administration interface to allow
+customization of the mobile apps, and a delivery system for PhoneGap
+applications, all powered by a JSON API which generates the training plans
+(in three languages). TrainMySelf GmbH was disbanded in 2015, after
+shifting the focus of the platform to health and recuperation apps. I took
+the opportunity thereafter to travel around the Americas for a year.
 </overview>
-      <website>http://trainmyself.com</website>
-      <links type="array">
-        <link>http://blog.trainmyself.com</link>
-      </links>
       <id>tms</id>
+      <website>https://trainmyself.com</website>
+    </experience>
+    <experience>
+      <company>Movinga</company>
+      <position type="array">
+        <position>Software Consultant</position>
+      </position>
+      <from>2016</from>
+      <to>2017</to>
+      <overview>I joined Movinga in February 2016 just as they were looking to replace
+their entire PHP stack with something shinier. Along with the V.P. of
+product and the global head of engineering, we designed and prototyped a
+scalable and comprehensive platform to integrate Salesforce, various
+payment providers, logistics, intelligent pricing, and an ops admin
+interface into a coherent and maintainable software stack.
+As part of this reboot, as well as leading early development, I was
+involved in the co-ordination of outsourced programming talent, hiring
+in-house, training up existing PHP developers to work with Rails, and
+fostering a tech-driven culture of balanced teams as the company grew
+rapidly. Over the course of the year, we expanded the team from 2 Ruby
+developers to over 30, and built a fully cloud-native micro-services
+architecture, with complete automated test coverage and a CI/CD pipeline
+based around Docker, Git and the GitLab CI runner.
+</overview>
+      <website>https://movinga.com</website>
+      <id>movinga</id>
+    </experience>
+    <experience>
+      <company>B.J.J.Buckley I.T. Consultancy</company>
+      <position type="array">
+        <position>Chief Consultant</position>
+      </position>
+      <from>2010</from>
+      <to>present</to>
+      <overview>Between long-term projects, I like to keep busy in a wide range of areas -
+creating toy mobile apps, making and running websites for small
+businesses, working on numerous open-source projects, evaluating and
+advising on network technology or software stacks, etc. As this kind of
+general consultant, I am free to expand my skillset outside of narrow
+specialisations, while delivering solutions to those who need weird and
+wonderful things.
+</overview>
+      <website>https://bjjbuckley.com</website>
+      <id>bjjbuckley</id>
     </experience>
   </experience>
   <hobbies type="array">
@@ -189,16 +231,6 @@ focus of the platform to health and recuperation apps.
   </hobbies>
   <links type="array">
     <link>
-      <name>GitHub Profile</name>
-      <href>http://github.com/jjbuckley</href>
-      <id>github</id>
-    </link>
-    <link>
-      <name>Blog (when I blog)</name>
-      <href>http://blog.bjjb.org</href>
-      <id>tumblr</id>
-    </link>
-    <link>
       <name>Google+</name>
       <href>https://plus.google.com/115358926435312925527</href>
       <id>google</id>
@@ -208,6 +240,31 @@ focus of the platform to health and recuperation apps.
       <href>http://twitter.com/#!/bjjbuckley</href>
       <id>twitter</id>
     </link>
+    <link>
+      <name>GitHub Profile</name>
+      <href>https://github.com/bjjb</href>
+      <id>github</id>
+    </link>
+    <link>
+      <name>BitBucket Profile</name>
+      <href>https://bitbucket.org/bjjb</href>
+      <id>bitbucket</id>
+    </link>
+    <link>
+      <name>GitLab Profile</name>
+      <href>https://gitlab.com/bjjb</href>
+      <id>gitlab</id>
+    </link>
+    <link>
+      <name>Rubygems Profile</name>
+      <href>https://rubygems.org/profiles/bjjb</href>
+      <id>rubygems</id>
+    </link>
+    <link>
+      <name>NPM profile</name>
+      <href>https://www.npmjs.com/~bjjb</href>
+      <id>npm</id>
+    </link>
   </links>
   <other-formats type="array">
     <other-format>yml</other-format>
@@ -215,5 +272,6 @@ focus of the platform to health and recuperation apps.
     <other-format>json</other-format>
     <other-format>xml</other-format>
     <other-format>html</other-format>
+    <other-format>pdf</other-format>
   </other-formats>
 </hash>

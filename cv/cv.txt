@@ -1,13 +1,13 @@
 Curriculum Vitae
 ================
 
-Bryan JJ Buckley _Full-stack Architect and Coder_
+Bryan JJ Buckley _Full-stack Internet Builder_
 
-> Looking for an interesting senior software-development position in a forward-thinking Berlin team using either NodeJS or Ruby on Rails.
+> Looking for an interesting senior software-development position in a forward-thinking Berlin or remote team using Go, Ruby, Elixir, Javascript or Python.
 
 
 - __Name:__          _Bryan JJ Buckley_  
-- __E-mail:__        _jjbuckley@gmail.com_  
+- __E-mail:__        _jj@bjjb.org_  
 - __Phone:__         _+49 176 49805866_  
 - __Nationality:__   _Irish_  
 - __Date of Birth:__ _1978-10-24_  
@@ -26,44 +26,46 @@ Experience
    * Software Developer
    * Senior Software Engineer
 
-   Dialogic (formerly Eicon Networks) are a global manufacturer of ISDN and DSL
-hardware. After doing my work experience there as part of the BSc in
-Software Development and Computer Networks, I was hired as a software engineer
-for the embedded team.  There I worked primarily on protocol stacks for the
-various firmwares (always in C). After some time, I moved onto developing
-Windows drivers in C++. I discovered first Python and then Ruby whilst looking
-for a solution to improve the build system for a newly acquired line of ISDN
-modems and their driver packages. I later had the opportunity to write an early
-Rails application which generates certificates for enabling driver features in
-Eicon's entire telephony range. Thus encouraged, I decided to work on Rails
-full-time.
+   Dialogic (formerly Eicon Networks) are a global manufacturer of ISDN and
+DSL hardware. After doing my work experience there as part of the BSc in
+Software Development and Computer Networks, I was hired as a software
+engineer for the embedded team.  There I worked primarily on protocol
+stacks for the various firmwares (always in C). After some time, I moved
+onto developing Windows drivers in C++. I discovered first Python and then
+Ruby whilst looking for a solution to improve the build system for a newly
+acquired line of ISDN modems and their driver packages. I later had the
+opportunity to write an early Rails application which generates
+certificates for enabling driver features in the Eicon telephony hardware
+range. Thus encouraged, I decided to work on Rails full-time.
 
 1. ### [Travel IQ][tiq] _(2007 - 2009)_ ![Logo](tiq.png)
    * Senior Software Developer
    * Architect
 
    Travel IQ was my first experience with a start-up, and it brought me to
-Berlin. In 2006, after a telephone interview with the CTO, I was asked to come
-to Berlin to meet the team of the fledgeling startup. I moved to Friedrichshain
-in February 2007, and worked with Mathias and 4 part-time students to get the
-app online for August 1st. After the launch, as senior developer/architect in an
-expanding team, we set about re-writing the platform for Rails 2. In October
-2008, version 2 was live, and in 2009, the company was aquired by Check24.
-Mission accomplished, I left to travel.
+Berlin. In 2006, after a telephone interview with the CTO, I was asked to
+come to Berlin to meet the team of the fledgeling startup. I moved to
+Friedrichshain in February 2007, and worked with Mathias and 4 part-time
+students to get the app online for August 1st. After the launch, as senior
+developer/architect in an expanding team, we set about re-writing the
+platform for Rails 2. In October 2008, version 2 was live, and in 2009,
+the company was aquired by Check24.  Mission accomplished, I left to
+travel.
 
 1. ### [eBay][ebay] _(2010 - 2016)_ ![Logo](ebay.png)
    * IT Consultant
    * Software Solutions Vendor
 
-   In between travels, I've done some project work for eBay GmbH in Dreilinden.
-I've whipped together a gem for using the eBay Trading API, and have built a
-couple of Rails apps (one in Rails 2.3, and a more recent one Rails 3.2) which
-are used for ranking signed-up users by their eBay trading data. The apps are
-used internally by eBay to encourage customer engagement, and to push particular
-verticals as needed. Other work includes a HTML5 photo-gallery (my first
-introduction to CarrierWave), and a mobile front-end to the eBay Open
-Global Competition app. As this is likely to continue, I spend some spare time
-improving the eBay Open JSON API, and the open-source eBayR gem.
+   In between travels, I've done some project work for eBay GmbH in
+Dreilinden.  I've whipped together a gem for using the eBay Trading API,
+and have built a couple of Rails apps (one in Rails 2.3, and a more recent
+one Rails 3.2) which are used for ranking signed-up users by their eBay
+trading data. The apps are used internally by eBay to encourage customer
+engagement, and to push particular verticals as needed. Other work
+includes a HTML5 photo-gallery (my first introduction to CarrierWave), and
+a mobile front-end to the eBay Open Global Competition app. As this is
+likely to continue, I spend some spare time improving the eBay Open JSON
+API, and the open-source eBayR gem.
 
 1. ### [SAP][sap] _(2014 - 2014)_ ![Logo](sap.png)
    * Software Solutions Vendor
@@ -92,16 +94,46 @@ coding miscellaneous APIs and gems for their consumption.
 1. ### [TrainMySelf][tms] _(2011 - 2015)_ ![Logo](tms.png)
    * CTO
 
-   TrainMySelf GmbH was a company founded in 2011 by three guys from South Tyrol
-and me (as CTO and lead - sometimes only - developer). The idea was to
-produce an iPhone and Android app that delivers customized training plans to
-marathon runners. Over its latter years, we hired a couple of additional
-developers part-time and graphic designers, and it grew to more of an
-app-platform - with an administration interface to allow customization of
-the mobile apps, and a delivery system for PhoneGap applications, all
-powered by a JSON API which generates the training plans (in three
-languages). TrainMySelf GmbH was disbanded in 2015, after shifting the
-focus of the platform to health and recuperation apps.
+   TrainMySelf GmbH was a company founded in 2011 by three guys from South
+Tyrol and me (as CTO and lead - sometimes only - developer). The idea was
+to produce an iPhone and Android app that delivers customized training
+plans to marathon runners. Over its latter years, we hired a couple of
+additional developers part-time and graphic designers, and it grew to more
+of an app-platform - with an administration interface to allow
+customization of the mobile apps, and a delivery system for PhoneGap
+applications, all powered by a JSON API which generates the training plans
+(in three languages). TrainMySelf GmbH was disbanded in 2015, after
+shifting the focus of the platform to health and recuperation apps. I took
+the opportunity thereafter to travel around the Americas for a year.
+
+1. ### [Movinga][movinga] _(2016 - 2017)_ ![Logo](movinga.png)
+   * Software Consultant
+
+   I joined Movinga in February 2016 just as they were looking to replace
+their entire PHP stack with something shinier. Along with the V.P. of
+product and the global head of engineering, we designed and prototyped a
+scalable and comprehensive platform to integrate Salesforce, various
+payment providers, logistics, intelligent pricing, and an ops admin
+interface into a coherent and maintainable software stack.
+As part of this reboot, as well as leading early development, I was
+involved in the co-ordination of outsourced programming talent, hiring
+in-house, training up existing PHP developers to work with Rails, and
+fostering a tech-driven culture of balanced teams as the company grew
+rapidly. Over the course of the year, we expanded the team from 2 Ruby
+developers to over 30, and built a fully cloud-native micro-services
+architecture, with complete automated test coverage and a CI/CD pipeline
+based around Docker, Git and the GitLab CI runner.
+
+1. ### [B.J.J.Buckley I.T. Consultancy][bjjbuckley] _(2010 - present)_ ![Logo](bjjbuckley.png)
+   * Chief Consultant
+
+   Between long-term projects, I like to keep busy in a wide range of areas -
+creating toy mobile apps, making and running websites for small
+businesses, working on numerous open-source projects, evaluating and
+advising on network technology or software stacks, etc. As this kind of
+general consultant, I am free to expand my skillset outside of narrow
+specialisations, while delivering solutions to those who need weird and
+wonderful things.
 
 
 Spoken languages
@@ -117,15 +149,16 @@ _In descending order of familiarity and preference_
 
 * Ruby
 * CoffeeScript
+* Javascript
 * SASS
 * HAML
-* Javascript
 * HTML
 * CSS
 * Python
 * Java
 * C
 * Lisp
+* Elixir
 * Ada
 * Lua
 * C++
@@ -143,10 +176,13 @@ Hobbies
 Links
 -----
 
-* [![GitHub Profile](github.png)][GitHub Profile]
-* [![Blog (when I blog)](tumblr.png)][Blog (when I blog)]
 * [![Google+](google.png)][Google+]
 * [![Twitter feed](twitter.png)][Twitter feed]
+* [![GitHub Profile](github.png)][GitHub Profile]
+* [![BitBucket Profile](bitbucket.png)][BitBucket Profile]
+* [![GitLab Profile](gitlab.png)][GitLab Profile]
+* [![Rubygems Profile](rubygems.png)][Rubygems Profile]
+* [![NPM profile](npm.png)][NPM profile]
 
 ------------------------------------------------------------
 
@@ -156,17 +192,21 @@ This CV is also in [HTML](cv.html), [JSON](cv.json),
 [XML](cv.xml) and [YAML](cv.yml).
 
 The source for this page is available
-[on GitHub](https://github.com/jjbuckley/jjbuckley.github.com/tree/master/cv)
-
+[on GitHub](https://github.com/bjjb/bjjb.github.com/tree/master/cv)
 
 [eicon]: http://www.eiconworks.com
-[tiq]: http://travel-iq.de
+[tiq]: http://www.testberichte.de/p/traveliq-de-tests/flugpreisvergleich-testbericht.html
 [ebay]: http://ebay.com
 [sap]: http://sap.com
 [dawanda]: http://dawanda.com
-[tms]: http://trainmyself.com
+[tms]: https://trainmyself.com
+[movinga]: https://movinga.com
+[bjjbuckley]: https://bjjbuckley.com
 
-[GitHub Profile]: http://github.com/jjbuckley
-[Blog (when I blog)]: http://blog.bjjb.org
 [Google+]: https://plus.google.com/115358926435312925527
 [Twitter feed]: http://twitter.com/#!/bjjbuckley
+[GitHub Profile]: https://github.com/bjjb
+[BitBucket Profile]: https://bitbucket.org/bjjb
+[GitLab Profile]: https://gitlab.com/bjjb
+[Rubygems Profile]: https://rubygems.org/profiles/bjjb
+[NPM profile]: https://www.npmjs.com/~bjjb
