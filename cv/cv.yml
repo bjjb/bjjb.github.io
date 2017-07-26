@@ -243,4 +243,5 @@ other_formats:
 - json
 - xml
 - html
-- pdf
+#- pdf
+# wkpdftohtml is a bit broken
