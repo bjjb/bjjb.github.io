@@ -1,0 +1,21 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	display: grid;
+	min-height: 100dvh;
+	grid-template: auto 1fr auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+header, footer {
+	padding: 1rem;
+	text-align: center;
+}
+
+main {
+	padding: 1rem;
+	place-self: center;
+}

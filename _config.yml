@@ -1,4 +1,0 @@
-# Enable code highlighting
-highlighter: 'pygments'
-# Site index
-lst: true
