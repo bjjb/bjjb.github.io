@@ -1,0 +1,1 @@
+{"issuer":"https://github.com","jwks_uri":"https://github.com/login/oauth/.well-known/jwks","subject_types_supported":["public"],"response_types_supported":["code","id_token"],"claims_supported":["sub","aud","exp","nbf","iat","iss","act"],"id_token_signing_alg_values_supported":["RS256"],"scopes_supported":["openid"]}
